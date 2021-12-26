@@ -53,4 +53,16 @@ public class LoginSD {
 
 
     }
+
+    @Given("browser is opened")
+    public void browserIsOpened() {
+
+        System.out.println(">>>>>>>>>browser is opened");
+    }
+
+    @When("url is entered")
+    public void urlIsEntered() {
+
+        System.out.println(">>>>>>>>>url is entered");
+    }
 }
